@@ -1,0 +1,69 @@
+
+table.v-table thead th {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    background-color: #fafafa !important;
+    opacity: 1;
+}
+    table.v-table thead th.sortable {
+        color: #1976d2 !important;
+    }
+table.v-table tbody td:first-child,
+table.v-table tbody td:not(:first-child),
+table.v-table thead td:first-child,
+table.v-table thead td:not(:first-child) {
+    font-size: 14px !important;
+    height: 30px !important;
+}
+table.v-table tbody td:first-child, table.v-table tbody td:not(:first-child),
+table.v-table tbody th:first-child, table.v-table tbody th:not(:first-child),
+table.v-table thead td:first-child, table.v-table thead td:not(:first-child),
+table.v-table thead th:first-child, table.v-table thead th:not(:first-child) {
+    padding: 0 10px !important;
+}
+table.v-table tbody td:first-child,
+table.v-table tbody td:not(:first-child),
+table.v-table tbody th:first-child,
+table.v-table tbody th:not(:first-child),
+table.v-table thead td:first-child,
+table.v-table thead td:not(:first-child),
+table.v-table thead th:first-child,
+table.v-table thead th:not(:first-child) {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+table.v-table thead tr {
+    height: 35px !important;
+}
+    table.v-table thead tr.v-datatable__progress {
+        height: 0px !important;
+    }
+.table-border th, .table-border td {
+    border: 1px solid #ccc;
+}
+
+.table-border th, .table-border td {
+    border: 1px solid #ccc;
+}
+.table .btn--icon {
+    margin: 0;
+    width: 28px;
+    height: 28px;
+}
+/* width */
+::-webkit-scrollbar {
+    height: 5px;
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555
+}

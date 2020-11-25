@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyKhachSanApp", "QuanLyKhachSanApp\QuanLyKhachSanApp.csproj", "{A15EA3FF-D405-468B-8955-72B9BE83FF5A}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "CMS.Admin", "..\QuanLyKhachSanCli\CMS.Admin.njsproj", "{9EF25B7B-B42E-48A9-995F-1421E2A6BDD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A15EA3FF-D405-468B-8955-72B9BE83FF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15EA3FF-D405-468B-8955-72B9BE83FF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15EA3FF-D405-468B-8955-72B9BE83FF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15EA3FF-D405-468B-8955-72B9BE83FF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF25B7B-B42E-48A9-995F-1421E2A6BDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF25B7B-B42E-48A9-995F-1421E2A6BDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF25B7B-B42E-48A9-995F-1421E2A6BDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF25B7B-B42E-48A9-995F-1421E2A6BDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2534F351-B0CB-499F-A31B-15E7B821A8D0}
+	EndGlobalSection
+EndGlobal
