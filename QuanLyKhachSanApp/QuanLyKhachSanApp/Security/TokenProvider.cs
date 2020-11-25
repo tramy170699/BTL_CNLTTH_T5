@@ -19,7 +19,7 @@ namespace HVIT.Security
                 userId.ToString(),
                 username,
                 userAgent,
-                 ip,
+                 //ip,
                 guid,
                 tokenIdentity.EffectiveTime.ToString()
             });
